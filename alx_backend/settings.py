@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'properties',
     'django_redis',
-    'rest_framework'
+    'rest_framework',
+     'properties.apps.PropertiesConfig',
 ]
 
 
